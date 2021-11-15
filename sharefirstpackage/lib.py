@@ -1,5 +1,8 @@
 # sharefirstpackage/lib.py
 import webbrowser
 
-def tryme():
-    return webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
+def try_me():
+    return webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ ')
+
+if __name__ == "__main__":
+    try_me()
